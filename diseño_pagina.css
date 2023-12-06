@@ -134,7 +134,6 @@
 
 /* FIN IMAGEN DE FONDO
 
-/* ************ EDICIÓN BOTONES SECCIÓN REAL STATE*******************/
 
 /* INICIO EDICIÓN BLOQUE DE TEXTO REAL ESTATE*/
 
@@ -228,7 +227,6 @@ h1 {
 .icono_busqueda{
     width: 320px;
     height: 35px;
-    background-color:transparent;
     position: relative;
     bottom: 400px;
     left: 880px;
@@ -504,12 +502,23 @@ input[type="text"]::placeholder{
     cursor: pointer;
 }
 
-.galeria_imagenes1 .imagen_2:hover p,
-.galeria_imagenes1 .imagen_3:hover p{
-    background-color: white;
-    color: #6b6a6a;
-    width: 100%;
+.galeria_imagenes1 .imagen_2:hover p {
+    background-color: black;
+    color: #FFF;
+    width: 70%;
+    padding-left: 30px;
 }
+
+.galeria_imagenes1 .imagen_3:hover p {
+    background-color: black;
+    color: #FFF;
+    width: 70%;
+    padding-left: 30px;
+    padding-right: 50px;
+    transition: background-color 0.3s ease;
+}
+
+
 /*END CONTENEDOR WORLDWIDE 1*/
 
 /* INICIO CONTENEDOR WORLDWIDE 2*/
@@ -706,11 +715,50 @@ input[type="text"]::placeholder{
 
 }
 
-.galeria_imagenes2:hover p{
-    background-color: white;
-    color: #6b6a6a;
-    width: 100%;
+
+.galeria_imagenes2 .imagen_4:hover p{
+    background-color: black;
+    color: #FFF;
+    width: 70%;
+    padding-left: 30px;
+    padding-right: 50px;
 
 
 }
+.galeria_imagenes2 .imagen_5 {
+    position: relative;
+}
+
+.galeria_imagenes2 .imagen_5:hover p {
+    position: relative;
+    z-index: 1;
+    background-color: #FFF;
+    color: black;
+    width: 70%;
+    padding-left: 30px;
+    padding-right: 20px;
+    transition: background-color 0.3s ease;
+}
+.galeria_imagenes2 .imagen_6:hover p {
+    position: relative;
+    z-index: 1;
+    background-color: #FFF;
+    color: black;
+    width: 70%;
+    padding-left: 5px;
+    
+}
+
+/*
+.galeria_imagenes2 .imagen_5:hover p{
+    background-color: black;
+    color: #FFF;
+    
+}
+
+.galeria_imagenes2 .imagen_6:hover p{
+    background-color: white;
+    color: #6b6a6a;
+    width: 100%;
+}*/
 /* END GALERÍA WORLDWIDE 2*/
