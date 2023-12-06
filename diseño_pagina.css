@@ -42,7 +42,7 @@
 .login_barra{
     height: fit-content;
     text-decoration: none;
-    color: black;
+    color: #FFF;
     font-size: 15px;
     margin-right: 0px;
     margin-left: 5px;
@@ -75,8 +75,20 @@
     padding-top: 11px;
     
 }
-
-
 .nav_container-links a{
         height: fit-content;
+    }
+
+    .boton_vertical{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -5px;
+        
+    }
+    .linea_1, .linea_2, .linea_3{
+        border: #FFF solid 1px;
+        height: 20px;
+        width: 30px;
+        margin: 3px 25px 5px 25px;
     }
