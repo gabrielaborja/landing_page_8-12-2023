@@ -422,7 +422,7 @@ input[type="text"]::placeholder{
 /* FIN CONTENEDOR Y BOTONES WORLDWIDE 1*/
 /* INICIO GALERIA WORLDWIDE 1*/
 .contenedor_principal1{
-    margin-top: 20px;
+    margin-top: 80px;
      display: grid;
      grid-template-columns: 1fr 1fr;
      gap:10px
