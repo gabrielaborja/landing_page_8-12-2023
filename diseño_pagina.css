@@ -230,7 +230,7 @@ h1 {
     height: 35px;
     background-color:transparent;
     position: relative;
-    bottom: 450px;
+    bottom: 400px;
     left: 880px;
 }
 .icono_busqueda .busqueda{
@@ -326,5 +326,6 @@ input[type="text"]::placeholder{
     margin-left: 10px;
     
 }
-/* FIN EDICION IMAGEN PRINCIPAL*/
+/* FIN EDICIÓN BOTONES SECCIÓN REAL ESTATE */
 
+/* INICIO 
