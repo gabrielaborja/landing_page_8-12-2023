@@ -621,7 +621,7 @@ input[type="text"]::placeholder{
 
 /* INICIO GALERIA WORLDWIDE 2*/
 .contenedor_principal{
-   margin-top: 20px;
+   margin-top:35px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap:10px
