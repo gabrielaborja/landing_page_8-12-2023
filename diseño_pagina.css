@@ -121,7 +121,9 @@
 
 /* FIN IMAGEN DE FONDO
 
-/* EDICIÓN BOTONES SECCIÓN REAL STATE*/
+/* ************ EDICIÓN BOTONES SECCIÓN REAL STATE*******************/
+
+/* INICIO EDICIÓN BLOQUE DE TEXTO REAL ESTATE*/
 
 .Real_Estate_section{
 
@@ -160,3 +162,56 @@ h1 {
     line-height: 70px;
     margin-left: 100px;
 }
+/* FIN EDICIÓN BLOQUE DE TEXTO REAL ESTATE*/
+
+/* INICIO EDICIÓN BOTONES SECCIÓN REAL ESTATE */
+
+/* INICIO BOTÓN VIEW ALL PROPERTIES*/
+.Real_Estate_container-text{
+    height: 500px;
+    width: 100%;
+}
+
+
+.contenedor_view_all_properties{
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.contenedor_view_all_properties .view_properties{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    border: black solid 1px;
+    border-radius: 50px;
+}
+.flecha{
+    height: 13px;
+    width: 20px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.view_properties{
+    color: black;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+} 
+.view_properties:hover{
+    cursor: pointer;
+}
+.view_properties:hover {
+    background-color: white;
+    color:#464547;
+    border: 1px solid black;
+    
+}
+
+/* END BOTÓN VIEW ALL PROPERTIES*/
