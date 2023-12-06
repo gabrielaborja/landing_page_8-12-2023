@@ -105,3 +105,12 @@
 .ENG_barra:hover{
     background-color:darkgray;
 }
+/* FIN BARRA DE NAVEGACIÓN*/
+
+/* INICIO SECCIÓN REAL STATE*/
+.Real_Estate_section {
+    background-image: url('ruta_de_tu_imagen.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
