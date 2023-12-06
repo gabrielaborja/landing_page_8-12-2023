@@ -344,12 +344,12 @@ input[type="text"]::placeholder{
     line-height: 45px; 
 
  } 
+
  
  .worldwide_contenedor_text1 h2{
     font-family:'Times New Roman', Times, serif;
     font-size: 40px;
     font-style:bold;
-    /*font-weight: 530;*/
     line-height: 45px; 
  }
 
@@ -420,21 +420,21 @@ input[type="text"]::placeholder{
     margin-left: 30px;
 }
 /* FIN CONTENEDOR Y BOTONES WORLDWIDE 1*/
+
 /* INICIO GALERIA WORLDWIDE 1*/
 .contenedor_principal1{
     margin-top: 80px;
      display: grid;
      grid-template-columns: 1fr 1fr;
-     gap:10px
+     gap:10px;
  
  }
  
  .galeria_imagenes1{
-     /*width: 700px;*/
      margin-left: 70px;
      display: grid;
      grid-template-columns: repeat(12, 1fr);
-     gap:5 px;
+     gap: 20 px;
      overflow-x: hidden;
  }
  .foto1{
@@ -450,19 +450,19 @@ input[type="text"]::placeholder{
      height: 200px;
      width: 220px;
  }
- 
+ .galeria_imagenes1 .imagen_1 {
+    grid-column: span 2; 
+    width: 100%;
+    height: 100%;
+    
+}
  .galeria_imagenes1 .imagen_2,
  .galeria_imagenes1 .imagen_3 {
      grid-column: span 5;
      width: 100%;
      height: 100%;
  }
- .galeria_imagenes1 .imagen_1 {
-     grid-column: span 2; 
-     width: 100%;
-     height: 100%;
-     
- }
+
  
  .galeria_imagenes1 .france1{
      color:#464547;
