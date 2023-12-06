@@ -136,15 +136,27 @@
 
 
 h1 {
-    margin-top: 20px;
+    position: absolute;
+    top: 440px;
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 500;
-    line-height: 45px;
-    margin-left: 40px;
+    margin-left: 90px;
+    
 }
 .estate_text {
     display: inline-block; 
+}
+.luxu{
+    position: absolute;
+    top: 390px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    margin-left: 100px;
 }
