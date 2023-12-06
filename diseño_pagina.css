@@ -223,3 +223,42 @@ h1 {
 }
 
 /* END BOTÓN VIEW ALL PROPERTIES*/
+
+/* INICIO BOTÓN DE BÚSQUEDA*/
+.icono_busqueda{
+    width: 320px;
+    height: 35px;
+    background-color:transparent;
+    position: relative;
+    bottom: 450px;
+    left: 880px;
+}
+.icono_busqueda .busqueda{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    border: #FFF solid 1px;
+    border-radius: 30px;
+}
+.busqueda{
+    padding: 5px 20px  ;
+}
+
+input[type="text"]::placeholder{
+    color: #FFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:normal;
+    font-size: 11px;
+    font-weight: 390;
+    line-height: 45px; 
+} 
+.lupa_blanca{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+/* FIN BOTÓN DE BÚSQUEDA*/
