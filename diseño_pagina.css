@@ -92,3 +92,16 @@
         width: 30px;
         margin: 3px 25px 5px 25px;
     }
+    .login_barra:hover,
+.sign-up_barra:hover,
+.ESP_barra:hover,
+.ENG_barra:hover, .boton_vertical:hover {
+    cursor: pointer;
+}
+
+.login_barra:hover,
+.sign-up_barra:hover,
+.ESP_barra:hover,
+.ENG_barra:hover{
+    background-color:darkgray;
+}
