@@ -987,28 +987,45 @@ input[type="text"]::placeholder{
 
 
 /* INICIO DISEÑO FOOTER*/
-.pie_pagina{
+
+.contenedor_pequeno_y_grande{
+    display: flex;
+    flex-direction: column;
+}
+.contenedor_pequeno{
+    display: flex;
+    flex-direction: row;
+    background-color: #DF991B;
+}
+.contenedor_grande{
+    background-color: aqua;
+}
+
+
+
+/*.pie_pagina{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr;
-}
+}*/
 
-.contenedor_pequeno{
+/*.contenedor_pequeno{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-}
+}*/
 
-.contenedor_grande{
+/*.contenedor_grande{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 
-}
-.copyright{
+}*/
+/*.copyright{
     display: flex;
     flex-direction: row;
     justify-content: center;
     
-}
+}*/
