@@ -127,7 +127,7 @@
                 url('./img/fondo_principal.png');
     background-size: cover;
     background-position: center;
-    z-index: -1; /* Coloca el degradado detrás de los elementos hijos */
+    z-index: -1; 
     background-position: center top -380px;
 }
 
@@ -261,47 +261,7 @@ input[type="text"]::placeholder{
 /* FIN BOTÓN DE BÚSQUEDA*/
 
 /* INICIO MENÚ DE REDES SOCIALES*/
-.redes_sociales_vertical{
-    position: fixed;
-    z-index: 1200;
-    left: 20px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap:15px;
-    margin-top: 50px;
-    margin-bottom: 150px;
-}
 
-.redes_sociales_vertical p{
-    transform: rotate(90deg);
-    color:#918f8f;
-   
-}
-.redes_sociales_vertical .sociales{
-    width:15px;
-    height:15px;
-    object-fit: cover; 
-
-}
-.redes_sociales_vertical img {
-    max-width: 100%; /* Asegura que las imágenes no excedan el tamaño del contenedor */
-    height: auto;
-}
-
-.redes_sociales_vertical .linea_vertical {
-    height:45px ;
-    width: 5px;
-    border-left: 1.5px solid #918f8f;
-    font-family: sans-serif;
-    font-weight: 800;
-    line-height: 1px;
-    margin-top: 15px;
-}
-
-
-/* FIN MENÚ DE REDES SOCIALES*/
 
 /* INICIO LINEAS DE REDES SOCIALES*/
 .lineas_horizontales{
@@ -1280,6 +1240,48 @@ margin-left: 50px;
     background: #000000;
     height: 10px;
 }
+
+.redes_sociales_vertical{
+    position: fixed;
+    z-index: 1200;
+    left: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.redes_sociales_vertical p{
+    transform: rotate(90deg);
+    color:#918f8f;
+   
+}
+.redes_sociales_vertical .sociales{
+    width:15px;
+    height:15px;
+    object-fit: cover; 
+
+}
+.redes_sociales_vertical img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.redes_sociales_vertical .linea_vertical {
+    height:45px ;
+    width: 5px;
+    border-left: 1.5px solid #918f8f;
+    font-family: sans-serif;
+    font-weight: 800;
+    line-height: 1px;
+    margin-top: 15px;
+}
+
+
+/* FIN MENÚ DE REDES SOCIALES*/
 
 
 
