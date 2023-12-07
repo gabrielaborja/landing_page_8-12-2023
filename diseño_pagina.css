@@ -995,15 +995,17 @@ input[type="text"]::placeholder{
     background-color:#26282B;;
     margin-left: 105px;
     margin-right:105px;
-    /*margin-top: 20px;*/
-    /*margin-bottom: 100px;*/
 
 }
 
-.contenedor_unlock, .contenedor_correo{
+.contenedor_unlock,
+.contenedor_correo,
+.boton_submit {
     width: 500px;
     height: 160px;
 }
+
+
 .contenedor_unlock{
     display: flex;
     flex-direction: column;
@@ -1017,6 +1019,31 @@ input[type="text"]::placeholder{
     margin-left: 25px;
 
 }
+.submit{
+    color:#DF991B ;
+    font: sans-serif;
+    font-size: 15px;
+    font-style: bold;
+    border: solid 1px #DF991B;
+    background-color: transparent;
+    border-radius: 30px;
+    height: 42px;
+    width: 220px;
+    margin-top: 12px;
+    margin-left:25px;
+    
+ }
+
+ .contenedor_correo label {
+    color: #FFF; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 13px; 
+    margin-bottom: 5px; 
+    display: block; 
+    margin-left: 20px;
+}
+/*
 .join{
     color: #DF991B;
     font-family: 'Times New Roman', Times, serif;
@@ -1033,31 +1060,11 @@ input[type="text"]::placeholder{
     margin-bottom: 10px;
     margin-left: 40px;
 }
+*/
 
-.submit{
-    color:#DF991B ;
-    font: sans-serif;
-    font-size: 15px;
-    font-style: bold;
-    border: solid 1px #DF991B;
-    background-color: transparent;
-    border-radius: 30px;
-    height: 42px;
-    width: 220px;
-    margin-top: 12px;
-    margin-left: 180px;
-    
- }
 
- .contenedor_correo label {
-    color: #FFF; 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 13px; 
-    margin-bottom: 5px; 
-    display: block; 
-    margin-left: 20px;
-}
+
+
 /* Estilos para el input */
 .contenedor_correo .name {
     width: 400px; 
@@ -1073,9 +1080,8 @@ input[type="text"]::placeholder{
     font-style: normal; 
     font-size: 9px;
     text-indent: 15px;
-
-
 }
+
 .submit:hover{
     cursor: pointer;
 }
