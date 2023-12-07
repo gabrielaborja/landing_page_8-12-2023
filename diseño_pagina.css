@@ -993,3 +993,8 @@ input[type="text"]::placeholder{
     grid-template-rows: auto auto 1fr;
 }
 
+.contenedor_pequeno{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
