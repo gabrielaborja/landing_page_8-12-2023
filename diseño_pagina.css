@@ -988,6 +988,7 @@ input[type="text"]::placeholder{
 
 /* INICIO DISEÑO FOOTER*/
 
+/*
 .contenedor_pequeno_y_grande{
     display: flex;
     flex-direction: column;
@@ -1000,9 +1001,7 @@ input[type="text"]::placeholder{
     background-color:#26282B;;
     margin-left: 105px;
     margin-right:105px;
-    margin-top: 20px;
-    position: absolute;
-    bottom: 0;
+    margin-top: 50px;
 }
 .contenedor_unlock, .contenedor_correo{
     width: 500px;
@@ -1061,8 +1060,9 @@ input[type="text"]::placeholder{
     margin-bottom: 5px; 
     display: block; 
     margin-left: 20px;
-}
+}*/
 /* Estilos para el input */
+/*
 .contenedor_correo .name {
     width: 400px; 
     height: 30px;
@@ -1089,9 +1089,11 @@ input[type="text"]::placeholder{
     border: #464547;
     
 }
+*/
 /* FIN CONTENEDOR PEQUEÑO*/
 
 /* INICIO CONTENEDOR GRANDE*/
+/*
 .contenedor_grande {
     height: 300px;
     width: 100%;
@@ -1102,7 +1104,6 @@ input[type="text"]::placeholder{
 .contenedores_1_2_3_4{
     display: flex;
     flex-direction: row;
-    /*background-color: #DF991B;*/
     justify-content: space-around;
     align-items: flex-end;
     
@@ -1212,7 +1213,7 @@ margin-left: 50px;
     margin-left: 130px;
 
 }
-.mail{
+.concierge{
     color: #FFF;
     font-family:'Cabin';
     font-size: 14px;
@@ -1223,6 +1224,7 @@ margin-left: 50px;
     margin-left: 130px;
 
 }
+
 
 .copyright{
     display: flex;
@@ -1238,4 +1240,5 @@ margin-left: 50px;
     font-weight: 330;
 
 }
+*/
 
