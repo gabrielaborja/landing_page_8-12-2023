@@ -997,4 +997,18 @@ input[type="text"]::placeholder{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor_grande{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 }
