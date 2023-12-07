@@ -991,6 +991,8 @@ input[type="text"]::placeholder{
 .contenedor_pequeno_y_grande{
     display: flex;
     flex-direction: column;
+    position: relative;
+    z-index: 1;
 }
 .contenedor_pequeno{
     display: flex;
@@ -998,6 +1000,9 @@ input[type="text"]::placeholder{
     background-color:#26282B;;
     margin-left: 105px;
     margin-right:105px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
 }
 .contenedor_unlock, .contenedor_correo{
     width: 500px;
@@ -1091,6 +1096,8 @@ input[type="text"]::placeholder{
     height: 300px;
     width: 100%;
     background-color: black;
+    position: relative;
+    z-index: 0; 
 }
 .contenedores_1_2_3_4{
     display: flex;
@@ -1232,30 +1239,3 @@ margin-left: 50px;
 
 }
 
-
-/*.pie_pagina{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto 1fr;
-}*/
-
-/*.contenedor_pequeno{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}*/
-
-/*.contenedor_grande{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-
-}*/
-/*.copyright{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-}*/
