@@ -228,7 +228,7 @@ h1 {
     width: 320px;
     height: 35px;
     position: relative;
-    bottom: 400px;
+    top: 100px;
     left: 880px;
 }
 .icono_busqueda .busqueda{
@@ -1240,6 +1240,23 @@ margin-left: 50px;
     background: #000000;
     height: 10px;
 }
+
+/*MENU REDES SOCIALES*/
+
+.redes_sociales_vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 200px;
+    background-color: #DF991B;
+    bottom: -20px;
+}
+
+.linea_vertical{
+    height: 10px;
+    border: #FFF 2px solid;
+}
+/*
 
 .redes_sociales_vertical{
     position: fixed;
