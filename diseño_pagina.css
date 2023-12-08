@@ -456,6 +456,7 @@ input[type="text"]::placeholder{
      display: grid;
      grid-template-columns: 1fr 1fr;
      gap:10px;
+     padding-top: -50px;
  
  }
  
@@ -781,6 +782,10 @@ input[type="text"]::placeholder{
 }
 
 /* INICIO GALERIA GRANDE*/
+
+.galeria_grande{
+    margin-top: 150px;
+}
 
 .galeria_grande1,
 .galeria_grande2 {

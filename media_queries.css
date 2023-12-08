@@ -74,6 +74,12 @@
         .boton_view0{
             display: none; 
         }
+        .galeria_imagenes0{
+            display: none;
+        }
+        .galeria_imagenes2{
+            display: block ;
+        }
     }
     @media screen and (max-width: 320px) {
         .texto_1{
@@ -121,6 +127,56 @@
             border: 1px solid #464547;
             
         }
+        .galeria_imagenes0{
+            display: block;
+        }
+        .galeria_imagenes2{
+            display: none ;
+        }
+        .galeria_imagenes0{
+            margin-left: 70px;
+            display: grid;
+            grid-template-columns: repeat(9, 1fr);
+            gap: 5 px;
+            overflow-x: hidden;
+            margin-left: 20px ;
+            margin-top: 10px;
+        }
+        
+        .foto2{
+            height: 250px;
+            width: 220px;
+        }
+        .foto3{
+            height: 250px;
+            width: 220px;
+        }
+        .galeria_imagenes0 .imagen_2 {
+           grid-column: span 5; 
+           width: 60%;
+           height: 80%;
+           
+       }
+        .galeria_imagenes0 .imagen_3 {
+            grid-column: span 4;
+            width: 60%;
+            height: 80%;
+        }
+       
+        .galeria_imagenes0 .england{
+            color:white;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            margin-left:35px ;
+            margin-top: -50px
+        }
+       
+        .galeria_imagenes0 .imagen_2:hover p,
+       .galeria_imagenes0 .imagen_3:hover p{
+           cursor: pointer;
+       }
 
     }
 
