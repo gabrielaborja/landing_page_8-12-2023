@@ -272,3 +272,100 @@ input[type="text"]::placeholder{
     width: 450px;
     margin-left: 30px;
 }
+
+/* INICIO GALERIA WORLDWIDE 1*/
+.contenedor_principal1{
+    margin-top: 80px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap:10px;
+ 
+ }
+ 
+ .galeria_imagenes1{
+     margin-left: 70px;
+     display: grid;
+     grid-template-columns: repeat(8, 1fr);
+     gap: 5 px;
+     overflow-x: hidden;
+ }
+ 
+ .foto2{
+     height: 250px;
+     width: 220px;
+ }
+ .foto3{
+     height: 250px;
+     width: 220px;
+ }
+ .galeria_imagenes1 .imagen_2 {
+    grid-column: span 5; 
+    width: 100%;
+    height: 100%;
+    
+}
+ .galeria_imagenes1 .imagen_3 {
+     grid-column: span 3;
+     width: 100%;
+     height: 100%;
+ }
+
+ 
+ .galeria_imagenes1 .france1{
+     color:#464547;
+     font-family:'Times New Roman', Times, serif;
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 400;
+     margin-left:35px ;
+ }
+ .galeria_imagenes1 .england{
+     color:white;
+     font-family:'Times New Roman', Times, serif;
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 400;
+     margin-left:35px ;
+     margin-top: -50px
+ }
+
+ .galeria_imagenes1 .marseilles{
+     color:#000;
+     font-family:'Times New Roman', Times, serif;
+     font-size: 22px;
+     font-weight: 550;
+     margin-left:35px ;
+ }
+ .galeria_imagenes1 .glasgow{
+     color:white;
+     font-family:'Times New Roman', Times, serif;
+     font-size: 22px;
+     font-weight: 550;
+     margin-left:35px ;
+ }
+
+
+ 
+ .galeria_imagenes1 .imagen_2:hover p,
+.galeria_imagenes1 .imagen_3:hover p{
+    cursor: pointer;
+}
+
+.galeria_imagenes1 .imagen_2:hover p {
+    background-color: black;
+    color: #FFF;
+    width: 70%;
+    padding-left: 30px;
+}
+
+.galeria_imagenes1 .imagen_3:hover p {
+    background-color: black;
+    color: #FFF;
+    width: 70%;
+    padding-left: 30px;
+    padding-right: 50px;
+    transition: background-color 0.3s ease;
+}
+
+
+/*END CONTENEDOR WORLDWIDE 1*/
