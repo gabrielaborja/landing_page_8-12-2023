@@ -319,7 +319,7 @@ input[type="text"]::placeholder{
 /* INICIO MENÚ DE REDES SOCIALES*/
 
 
-/* INICIO LINEAS DE REDES SOCIALES*/
+/* INICIO LINEAS HORIZONTALES*/
 .lineas_horizontales{
     display: flex;
     flex-direction: row;
@@ -340,6 +340,8 @@ input[type="text"]::placeholder{
     margin-left: 10px;
     
 }
+/* FIN LINEAS HORIZONTALES*/
+
 /* FIN EDICIÓN BOTONES SECCIÓN REAL ESTATE */
 
 /* INICIO SECCIÓN WORLDWIDE 1*/
