@@ -609,3 +609,143 @@ input[type="text"]::placeholder{
     margin-bottom: 50px;
 }
 /* END GALERIA GRANDE*/
+
+/* INICIO SECCIÓN DE DECORACIÓN*/
+
+.decoracion{
+    background-color: transparent;
+}
+.linea_decoracion{
+    border-bottom: 2px solid #DF991B;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+/* FIN SECCION DE DECORACIÓN */
+
+/* INICIO SECCION ART CURATION*/
+.art_service{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    /*align-items: center;*/
+
+}
+.contenedor_imagen_arte {
+    position: relative;
+  }
+  
+  .rectangulo_fondo {
+    position: absolute;
+    z-index: 1; 
+    height: 600px;
+    left:27px;
+    bottom: 5px;
+  }
+  
+  .arte {
+    position: relative; 
+    z-index: 2; 
+    height: 500px;
+    width: 500px;
+    top: 150px;
+    left: 80px;
+    margin-bottom: 200px;
+  }
+
+  .curation_botones{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin-top: 45px;
+ }
+ .boton_prev2{
+    color:  #727272;
+    width: 60px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    gap: 8px;
+    
+ }
+ .boton_prev2 .flecha_gris2{
+    height: 22px;
+ }
+ .contact_us{
+    color:#000 ;
+    font: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight:300;
+    border: solid 1px black;
+    background-color: transparent;
+    padding: 1px 70px;
+    border-radius: 30px;
+    display: flex;
+    align-items:center;
+    height: 53px;
+    white-space: nowrap;
+    
+ }
+ 
+ .boton_next2{
+    color:#DF991B;
+    width: 60px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background-color: transparent;
+
+    
+ }
+ .boton_next2 .flecha_naranja2{
+    height: 22px;
+
+ }
+
+ .services_curation h3{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style:normal;
+    line-height: 45px; 
+ }
+ .services_curation .services{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #DF991B;
+    font-size: 22px;
+    font-style:normal;
+    font-weight: 250;
+    line-height: 40px; 
+ }
+
+ .services_curation .ultimate{
+    font-family:'Cabin';
+    font-size: 15px;
+    font-style:normal;
+    font-weight: 200;
+    line-height: 40px; 
+ }
+ 
+ .services_curation{
+    width: 500px;
+    column-gap: 5px;
+ }
+.ultimate{
+    padding-top: 30px;
+}
+.contact_us:hover{
+    cursor: pointer;
+}
+.contact_us:hover {
+    background-color: black;
+    color:white;
+    border: 1px solid #464547;
+    
+}
+.art_service{
+    margin-bottom: 70px;
+}
+/* FIN SECCIÓN ART CURATION*/
