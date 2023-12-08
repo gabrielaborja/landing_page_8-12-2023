@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width:320px) and (max-width:780px)
+@media screen and (max-width:320px)
     {
         .logo {
             display: none;
@@ -8,11 +8,11 @@
     
         .logo1 {
             display: block;
-            width: 70px;
-            height: 50px;
+            width: 60px;
+            height: 45px;
             flex-shrink: 0;
             margin-right: 700px;
-            margin-top: -15px;
+            margin-top: -5px;
             margin-left: 5px ;
         }
         .login_barra, .sign-up_barra, .ESP_barra, .ENG_barra{
@@ -23,7 +23,7 @@
     }
 
 
-@media screen and (min-width:320px) and (max-width:780px)  {
+@media screen and (max-width:320px)  {
     .Real_Estate_section::before{
         content: "";
         position: absolute;
@@ -55,4 +55,110 @@
         padding-top: 70px;
 
     }  
+
+    }
+
+    @media screen and (min-width: 1000px){
+        .worldwide_buttons1 {
+            display: block; 
+        }
+        .worldwide_buttons11{
+            display: none;
+
+        }
+
+    }
+    @media screen and (max-width: 320px) {
+        .worldwide_buttons1 {
+            display: none;
+        }
+        .worldwide_buttons11{
+            display: block;
+
+        }
+        .contenedor_worldwide_texto_botones1{
+            padding-left: 90px;
+            width: 450px;
+            margin-left: -160px;
+            margin-top: -70px;
+        }
+        .flecha_n{
+            width: 25px;
+            height: 30px;
+        }
+        .texto_1{
+            letter-spacing: 0.5px;
+        }
+
+        .boton_view11{
+            color:#DF991B; ;
+            font: sans-serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight:200;
+            background-color: transparent;
+            padding: 1px 20px;
+            border-radius: 30px;
+            border: none;
+            display: flex;
+            align-items:center;
+            height: 40px;
+            white-space: nowrap;
+            margin-top: 5px;
+            
+         }
+        
+         .boton_view11:hover{
+            cursor: pointer;
+        }
+        
+        .boton_view11:hover {
+            background-color: black;
+            color:white;
+            border: 1px solid #464547;
+            
+        }
+
+        .worldwide_contenedor_text1 .titulo_adorno1{
+            font-family:'Times New Roman', Times, serif;
+            color:  #DF991B;
+            font-size: 20px;
+            font-style:normal;
+            font-weight: 350;
+            line-height: 45px; 
+        
+         } 
+         .worldwide_contenedor_text1 h2{
+            font-family:'Times New Roman', Times, serif;
+            font-size: 30px;
+            font-style:bold;
+            line-height: 45px; 
+         }
+
+        
+    }
+        
+
+
+    /*
+
+    @media screen and (min-width: 1000px){
+
+     .texto_1, .flecha_n, .worldwide_buttons11, .worldwide_buttons1{
+            display: none;
+     }
+     
+    }
+    @media screen and (max-width: 1000px) {
+        .texto_1, .flecha_n, .worldwide_buttons11, .worldwide_buttons1{
+            display: block;
+        }
+    }
+
+
+
+
+    @media screen and (max-width:320px) {
+
 }
+*/
