@@ -288,6 +288,7 @@ input[type="text"]::placeholder{
      grid-template-columns: repeat(8, 1fr);
      gap: 5 px;
      overflow-x: hidden;
+    /* margin-top: 50px; */
  }
  
  .foto2{
@@ -329,43 +330,11 @@ input[type="text"]::placeholder{
      margin-top: -50px
  }
 
- .galeria_imagenes1 .marseilles{
-     color:#000;
-     font-family:'Times New Roman', Times, serif;
-     font-size: 22px;
-     font-weight: 550;
-     margin-left:35px ;
- }
- .galeria_imagenes1 .glasgow{
-     color:white;
-     font-family:'Times New Roman', Times, serif;
-     font-size: 22px;
-     font-weight: 550;
-     margin-left:35px ;
- }
-
-
- 
  .galeria_imagenes1 .imagen_2:hover p,
 .galeria_imagenes1 .imagen_3:hover p{
     cursor: pointer;
 }
 
-.galeria_imagenes1 .imagen_2:hover p {
-    background-color: black;
-    color: #FFF;
-    width: 70%;
-    padding-left: 30px;
-}
-
-.galeria_imagenes1 .imagen_3:hover p {
-    background-color: black;
-    color: #FFF;
-    width: 70%;
-    padding-left: 30px;
-    padding-right: 50px;
-    transition: background-color 0.3s ease;
-}
 
 
 /*END CONTENEDOR WORLDWIDE 1*/
