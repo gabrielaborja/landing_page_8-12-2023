@@ -58,24 +58,9 @@
 
     }
 
-    @media screen and (min-width: 1000px){
-        .worldwide_buttons1 {
-            display: block; 
-        }
-        .worldwide_buttons11{
-            display: none;
-
-        }
-
-    }
     @media screen and (max-width: 320px) {
-        .worldwide_buttons1 {
-            display: none;
-        }
-        .worldwide_buttons11{
-            display: block;
-
-        }
+       
+        
         .contenedor_worldwide_texto_botones1{
             padding-left: 90px;
             width: 450px;
