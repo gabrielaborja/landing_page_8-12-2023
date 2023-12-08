@@ -425,6 +425,7 @@ input[type="text"]::placeholder{
     grid-template-columns: repeat(8, 1fr);
     gap:0.2 px;
     overflow-x: hidden;
+
 }
 .foto4{
     height: 250px;
@@ -510,4 +511,101 @@ input[type="text"]::placeholder{
     border: 1px solid #464547;
     
 }
- 
+
+/* INICIO GALERIA GRANDE*/
+
+.galeria_completa{
+    margin-top: 100px;
+
+}
+.galeria_grande1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    margin:2px;
+    overflow: hidden;
+}
+
+
+.titulo__subtitulo_galeria {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.img17, .img18, .img19{
+    width: 262px;
+    height: 190px;
+}
+
+
+.galeria_grande1 .gal_1,
+.galeria_grande1 .gal_2,
+.galeria_grande1 .gal_3 {
+    margin: 5px; 
+    position: relative;
+    
+}
+.canada, .name{
+    color:#464547;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #FFF;
+}
+.quebec, .location{
+    color:#000;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 550;
+    background-color: #FFF;
+
+
+}
+.galeria_grande1 .gal_1:hover p,
+.galeria_grande1 .gal_2:hover p,
+.galeria_grande1 .gal_3:hover p{
+    background-color:#adacac;
+    color: black;
+}
+.galeria_grande1 .gal_1:hover p,
+.galeria_grande1 .gal_2:hover p,
+.galeria_grande1 .gal_3:hover p{
+    cursor: pointer;
+}
+
+.titulo__subtitulo_galeria p.lu {
+    color: #DF991B;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 40px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30px;
+}
+
+.titulo__subtitulo_galeria h2 {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: 42px;
+    font-style: normal;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+.galeria_c{
+    background-color: transparent;
+    height: 50px;
+    padding-top: 300px;
+    margin-bottom: 50px;
+}
+/* END GALERIA GRANDE*/
