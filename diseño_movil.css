@@ -217,4 +217,25 @@ input[type="text"]::placeholder{
     
 }
 /* FIN LINEAS HORIZONTALES*/
+.contenedor_worldwide1{
+    height: 300px;
+ }
+
+ .worldwide_contenedor_text1 .titulo_adorno1{
+    font-family:'Times New Roman', Times, serif;
+    color:  #DF991B;
+    font-size: 25px;
+    font-style:normal;
+    font-weight: 350;
+    line-height: 45px; 
+
+ } 
+
+ 
+ .worldwide_contenedor_text1 h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style:bold;
+    line-height: 45px; 
+ }
 
