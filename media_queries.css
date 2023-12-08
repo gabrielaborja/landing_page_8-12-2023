@@ -46,7 +46,13 @@
         width: 80%;
         top: 130px;
     }
+    .Real_Estate_container-text{
+        right: 70px;
+        bottom: 40px;
+    }
+    
+    .lineas_horizontales{
+        padding-top: 70px;
 
-    
-    
+    }  
 }
