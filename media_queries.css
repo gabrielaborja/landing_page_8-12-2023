@@ -37,7 +37,16 @@
         background-position: center;
         z-index: -1; 
     }
-    
+    .redes_sociales_vertical{
+        display: none;
+
+    }
+    .icono_busqueda{
+        left: 35px;
+        width: 80%;
+        top: 130px;
+    }
+
     
     
 }
