@@ -14,8 +14,10 @@
         margin-top: -15px;
         margin-left: 5px ;
     }
+    .login_barra, .sign-up_barra, .ESP_barra, .ENG_barra{
+        display: none;
+    }
 
-}
 
 
 @media screen and (min-width:320px) and (max-width:780px)  {
