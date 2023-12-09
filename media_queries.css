@@ -265,6 +265,10 @@
         .titulos_2{
             display: none;
         }
+        .boton_3{
+            display: none;
+        }
+    
       
     }
     @media screen and (max-width: 320px) {
@@ -290,6 +294,12 @@
             display: block;
         }
         .titulos_1{
+            display: none;
+        }
+        .boton_3{
+            display: block;
+        }
+        .curation_botones{
             display: none;
         }
         .worldwide_contenedor_text {
@@ -436,6 +446,13 @@
             font-weight: 250;
             line-height: 40px; 
          }
+         
+ .services_curation h3{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style:normal;
+    line-height: 45px; 
+ }
         
         .art_service{
             display: flex;
@@ -446,10 +463,39 @@
         }
         .contenedor_imagen_arte{
             order: 2;
+            margin-top: 50px;
             
         }
-        .curation_botones{
+        .boton_3{
             order: 3;
         }
+       
+         .contact1{
+            color:#DF991B; ;
+            font: sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight:200;
+            background-color: transparent;
+            padding: 1px 20px;
+            border-radius: 30px;
+            border: none;
+            display: flex;
+            align-items:center;
+            height: 40px;
+            white-space: nowrap;
+            
+         }
+         .contact1:hover{
+            cursor: pointer;
+        }
+        .contact1:hover {
+            background-color: black;
+            color:white;
+            border: 1px solid #464547;
+            
+        }
+
+        
     }
    
