@@ -915,7 +915,10 @@ input[type="text"]::placeholder{
     left:27px;
     bottom: 5px;
   }
-  
+  .decoracion{
+    display: flex;
+    flex-direction: row;
+  }
   .arte {
     position: relative; 
     z-index: 2; 
@@ -1022,6 +1025,7 @@ input[type="text"]::placeholder{
 .art_service{
     margin-bottom: 70px;
 }
+
 /* FIN SECCIÓN ART CURATION*/
 
 

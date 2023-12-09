@@ -257,13 +257,7 @@
         .galeria_imagenes01{
             display: none;
         }
-        .galeria_grande1{
-            display: block;
-        }
-        .galeria_grande2{
-            display: block;
-
-        }
+     
         .galeria_grande3{
             display: none;
 
@@ -271,7 +265,7 @@
     }
     @media screen and (max-width: 320px) {
         .galeria_grande{
-            margin-top: 600px;
+            margin-top: 350px;
         }
         .galeria_grande1{
             display: none;
@@ -377,9 +371,36 @@
         .luxu{
             white-space: nowrap;
         }
-       
+        .img17,.img18, .img19{
+            width: 100%;
+            height: 300px;
+        }
 
-         
+        .canada, .name{
+            color:#464547;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            background-color: #FFF;
+        }
+        .quebec, .location{
+            color:#000;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 27px;
+            font-weight: 550;
+            background-color: #FFF;
         
-
+    
+        }
+        .nombres{
+            margin-top: 10px;
+            margin-bottom: 5px;
+            margin-left: 40px;
+        }
+        .nombres2{
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-left: 40px;
+        }
     }
