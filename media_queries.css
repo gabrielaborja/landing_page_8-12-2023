@@ -77,15 +77,18 @@
         .galeria_imagenes0{
             display: none;
         }
-        .galeria_imagenes2{
-            display: block ;
-        }
     }
     @media screen and (max-width: 320px) {
         .texto_1{
             display: none;
         }
         .texto_2{
+            display: block;
+        }
+        .texto_3{
+            display: none;
+        }
+        .texto_4{
             display: block;
         }
         .naranja{
@@ -129,9 +132,6 @@
         }
         .galeria_imagenes0{
             display: block;
-        }
-        .galeria_imagenes2{
-            display: none ;
         }
         .galeria_imagenes0{
             margin-left: 70px;
@@ -177,7 +177,6 @@
        .galeria_imagenes0 .imagen_3:hover p{
            cursor: pointer;
        }
-
     }
 
     @media screen and (max-width: 320px) {
@@ -244,28 +243,42 @@
 
         
     }
-        
-
-
-    /*
-
-    @media screen and (min-width: 1000px){
-
-     .texto_1, .flecha_n, .worldwide_buttons11, .worldwide_buttons1{
-            display: none;
-     }
-     
-    }
-    @media screen and (max-width: 1000px) {
-        .texto_1, .flecha_n, .worldwide_buttons11, .worldwide_buttons1{
-            display: block;
+    @media screen and (min-width: 1000px) {
+        .texto_3{
+            display: block; /* O el valor que prefieras para que sea visible */
+        }
+        .texto_4{
+            display: none; /* O el valor que prefieras para que sea visible */
         }
     }
+    @media screen and (max-width: 320px) {
+        .texto_3{
+            display: none;
+        }
+        .texto_4{
+            display: block;
+        }
+        .worldwide_contenedor_text {
+            margin-left: -50px; 
+            width: 500px;
+            height: 100px;
+            
+        }
+        .worldwide_contenedor_text .titulo_adorno{
+            font-family:'Times New Roman', Times, serif;
+            color:  #DF991B;
+            font-size: 20px;
+            font-style:normal;
+            font-weight: 350;
+            line-height: 45px; 
+        
+         } 
+         .worldwide_contenedor_text h2{
+            font-family:'Times New Roman', Times, serif;
+            font-size: 30px;
+            font-style:bold;
+            line-height: 45px; 
+         }
+        
 
-
-
-
-    @media screen and (max-width:320px) {
-
-}
-*/
+    }
