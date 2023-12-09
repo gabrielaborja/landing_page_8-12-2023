@@ -257,10 +257,32 @@
         .galeria_imagenes01{
             display: none;
         }
+        .galeria_grande1{
+            display: block;
+        }
+        .galeria_grande2{
+            display: block;
+
+        }
+        .galeria_grande3{
+            display: none;
+
+        }
     }
     @media screen and (max-width: 320px) {
         .galeria_grande{
             margin-top: 600px;
+        }
+        .galeria_grande1{
+            display: none;
+        }
+        .galeria_grande2{
+            display: none;
+
+        }
+        .galeria_grande3{
+            display: block;
+
         }
 
 
