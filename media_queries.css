@@ -18,6 +18,9 @@
         .login_barra, .sign-up_barra, .ESP_barra, .ENG_barra{
             display: none;
         }
+        .navbar_header{
+            width: 320px;
+        }
 
 
     }
@@ -302,6 +305,9 @@
         .curation_botones{
             display: none;
         }
+        #piePagina{
+            display: none;
+        }
         .worldwide_contenedor_text {
             margin-left: -70px; 
             width: 500px;
@@ -461,11 +467,7 @@
         .services_curation{
             order: 1;
         }
-        .contenedor_imagen_arte{
-            order: 2;
-            margin-top: 50px;
-            
-        }
+        
         .boton_3{
             order: 3;
         }
@@ -494,6 +496,22 @@
             color:white;
             border: 1px solid #464547;
             
+        }
+        .contenedor_imagen_arte{
+            order: 2;
+            margin-top: 5px;
+            /*width: 50px;*/
+            margin-right: 300px;
+            
+        }
+        .arte{
+            width: 300px;
+            height: 300px;
+            padding-top: 50px;
+        }
+        .rectangulo_fondo{
+            width: 400px;
+            height: 350px;
         }
 
         
