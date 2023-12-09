@@ -21,6 +21,7 @@
         .navbar_header{
             width: 320px;
         }
+          
 
 
     }
@@ -144,6 +145,7 @@
             overflow-x: hidden;
             margin-left: 20px ;
             margin-top: 10px;
+            width: 280px;
         }
         
         .foto2{
@@ -369,6 +371,7 @@
             overflow-x: hidden;
             margin-left: 20px ;
             margin-top: 10px;
+            width: 280px;
         }
         
         .foto4{
@@ -394,7 +397,7 @@
             white-space: nowrap;
         }
         .img17,.img18, .img19{
-            width: 100%;
+            width: 80%;
             height: 300px;
         }
 
