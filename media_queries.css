@@ -249,7 +249,13 @@
             display: block; 
         }
         .texto_4{
-            display: none; /* O el valor que prefieras para que sea visible */
+            display: none; 
+        }
+        .boton01{
+            display: none;
+        }
+        .galeria_imagenes01{
+            display: none;
         }
     }
     @media screen and (max-width: 320px) {
