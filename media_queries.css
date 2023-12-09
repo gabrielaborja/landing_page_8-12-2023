@@ -259,6 +259,11 @@
         }
     }
     @media screen and (max-width: 320px) {
+        .galeria_grande{
+            margin-top: 600px;
+        }
+
+
         .texto_3{
             display: none;
         }
@@ -315,6 +320,39 @@
             border: 1px solid #464547;
             
         }
+        .galeria_imagenes01{
+            display: block;
+        }
+        .galeria_imagenes01{
+            margin-left: 70px;
+            display: grid;
+            grid-template-columns: repeat(9, 1fr);
+            gap: 5 px;
+            overflow-x: hidden;
+            margin-left: 20px ;
+            margin-top: 10px;
+        }
+        
+        .foto4{
+            height: 250px;
+            width: 220px;
+        }
+        .foto5{
+            height: 250px;
+            width: 220px;
+        }
+        .galeria_imagenes01 .imagen_4 {
+           grid-column: span 5; 
+           width: 60%;
+           height: 80%;
+           
+       }
+        .galeria_imagenes01 .imagen_5 {
+            grid-column: span 4;
+            width: 60%;
+            height: 80%;
+        }
+       
 
          
         
