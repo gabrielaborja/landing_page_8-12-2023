@@ -918,6 +918,12 @@ input[type="text"]::placeholder{
   .decoracion{
     display: flex;
     flex-direction: row;
+    align-items: center;
+  }
+  .linea_decoracion{
+    height: 0px;
+    width: 500px;
+    border: 1px solid  #DF991B;
   }
   .arte {
     position: relative; 
