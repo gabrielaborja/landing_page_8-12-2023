@@ -40,6 +40,7 @@
         background-size: cover;
         background-position: center;
         z-index: -1; 
+        width: 320px;
     }
     .redes_sociales_vertical{
         display: none;
@@ -397,7 +398,7 @@
             white-space: nowrap;
         }
         .img17,.img18, .img19{
-            width: 80%;
+            width: 90%;
             height: 300px;
         }
 
